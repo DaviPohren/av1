@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 50px 1fr;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 1920px;
+}
+.avatar{
+    padding: 10px;
+    height: 60px;
+    border-radius: 30px;
+}
+.nome{
+    padding: 15px;
+    font-family: "Sanchez", serif;
+}
+body{
+    background-color: gray;
+    text-align: left;
+}
+.child{
+    height: 450px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.description{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 400px 1fr;
+    background-color: gray;
+    color: white;
+    height: 500px;
+    width: 1920px
+}
+.topicos{
+    padding: 15px;
+    font-size: 50px;
+}
+.preferencias{
+    text-align: center;
+}
+.item{
+    background-color: darkgray;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+.item:hover{
+    padding: 15px;
+}
+.music{
+    height: 15px;
+}
+.movie{
+    height: 15px;
+}
+.book{
+    height: 15px;
+}
+.headermusic{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 50px 1fr 1fr;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 1920px;
+}
+.home{
+    height: 15px;
+}
+.itemhome{
+    background-color: darkgray;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
